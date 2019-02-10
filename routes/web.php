@@ -36,3 +36,4 @@ Route::get('/sports', 'PageController@sports');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/admin/index', 'AdminPanel@index');
